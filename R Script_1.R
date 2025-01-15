@@ -69,7 +69,7 @@ library(readr)
 library(stringr)
 
 # Set up Google Maps API key
-register_google(key = "AIzaSyCdjlhCcwR-3X80oOq3aX34F8aQck0qSos") 
+register_google(key = "***") 
 
 electric_vehicle_data <- electric_vehicle_data %>%
   rowwise() %>%
